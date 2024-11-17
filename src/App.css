@@ -1,0 +1,360 @@
+body{
+  background-color: #FAFAFA;
+  font-family: "Lunasima", sans-serif;
+}
+.header{
+  padding-top: 1%;
+  font-size: 55px;
+  font-weight: 500
+}
+.apro{
+  font-family: "Anonymous Pro", monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  margin: 1% 0 0 0;
+  padding-bottom: 1%;
+  display: flex;
+  border-bottom: 3px solid gray;
+  background-color: #FFF;
+  padding: 0 5% 0 5%;
+}
+
+nav img {
+  height: 5rem;
+  flex-shrink: 1;
+}
+
+aside nav {
+  list-style: none;
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  flex-shrink: 1;
+}
+
+.in {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-shrink: 1;
+}
+
+.in li {
+  margin-left: 3em;
+  font-weight: 400;
+}
+
+.navBar li {
+  margin-right: 3em;
+}
+
+.in li a {
+  display: block;
+  width: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+#log {
+  background-color: #60495A;
+}
+
+#sign {
+  background-color: #2F2235;
+}
+
+@media(max-width:850px){
+  .navBar{
+    width: 40%;
+  }
+  .in{
+    width: 50%;
+  }
+  .in li {
+    margin-left: 5%;
+  }
+  .nav{
+    justify-content: center;
+  }
+  .textB{
+    visibility: hidden;
+    width: 0%;
+  }
+  .in{
+    justify-content: left;
+  }
+}
+
+
+
+
+#homeMain {
+  background-color: #FAFAFA;
+  min-height: 90vh;
+}
+
+#homeMain section{
+  margin-left: 5%;
+  padding-top: 1%;
+  text-align: left;
+  width: 50%;
+  float: left;
+}
+
+#homeMain section h2{
+  width: 81%;
+  font-weight: 400;
+}
+
+#homeMain img{
+  padding-top: 5%;
+  padding-right: 5%;
+  width: 550px;
+  height: 550px;
+  float: right;
+}
+
+@media(max-width: 1425px){
+  #homeMain section{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 4%;
+  }
+  #homeMain img{
+    width: 50vw;
+    height: 50vw;
+    float: none;
+  }
+}
+
+.cta {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+
+.bigButt{
+  display: block;
+  width: 15em;
+  flex-shrink: 1;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  text-align: center;
+  align-items: center;
+  font-family: "Lunasima", sans-serif;
+  background-color:#2F2235;
+  color: white;
+  font-size: medium;
+}
+
+#logInMain{
+  text-emphasis: center;
+}
+
+#login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+#signupMain{
+  display: flex;
+  padding-left: 5%;
+  text-align: left;
+}
+
+#signup{
+  width: 50%;
+}
+
+#signup h1{
+  font-size: 40px; 
+}
+
+#signupMain img{
+  padding-top: 5vh;
+  padding-left: 10vw;
+  padding-right: 10%;
+  height: 650px;
+  width: 850px;
+
+}
+
+#passReq{
+  padding: 0;
+  padding-left: 2%;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  color: #a5a5a5;
+}
+
+#passReq li{
+  width: 50%;
+  padding-top: 5px;
+}
+
+@media (max-width:700px){
+  #signupMain img{
+    visibility: hidden;
+  }
+  #passReq{
+    width: 100%;
+  }
+  #passReq li{
+    width: 100%;
+  }
+}
+
+
+input[type=password],input[type=text],input[type=email]{
+  margin: 0%;
+  width: 50vh;
+  padding: 12px 10px;
+  font-size: medium;
+  
+}
+
+#loginPageButton{
+  margin-top: 2vw;
+}
+
+.userInput{
+  margin-top: 2vh;
+}
+
+.block-title {
+  font-weight: bold;
+  justify-content: center;
+}
+
+.block-content {
+  width: fit-content;
+  border: 1px solid black;
+}
+
+#documentEdit, #blockEdit {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#docMain ul,#sideNav ul, #blockMain ul{
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sideNav{
+  position: sticky;
+}
+
+#sideNav nav{
+  top:0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  height: 100vh;
+  align-items: center;
+  background-color: white;
+  border-right: 3px solid #2F2235;
+  float: left;
+}
+
+#sideNav ul{
+  margin-top: 3vh;
+  font-size: x-large;
+}
+
+#logo{
+  width: 190px;
+  height: 85px;
+  padding-bottom: 10%;
+  border-bottom: 3px solid #2F2235;
+}
+
+#sideNav button{
+  margin-top: 70%;
+  width: 200px;
+}
+
+#blockIcon, #docIcon{
+  padding-top: 5vh;
+}
+
+#blockIcon, #docIcon{
+  padding-top: 5vh;
+}
+
+#blockIcon img{
+  height: 70px;
+  width: 70px;  
+}
+
+#docIcon img{
+  height: 70px;
+  width: 55px;
+}
+
+#docSelect, #blockSelect{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 10%;
+}
+
+.selected{
+  background-color: #DDDD;
+  border-left: 10px solid #2F2235;
+}
+
+.textBoxList{
+  width: 100%;
+}
+
+.textBoxList ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.textBoxList li{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  width: 25vw;
+  height: 12vw;
+  background-color:#EEEE;
+  padding-bottom: 1%;
+}
+
+.textBoxList nav{
+  
+}
